@@ -1,0 +1,1455 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Zomato_delivery_data_2' inline='true' name='federated.0baqwan1l3w40e19nx32b0mcuajx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Zomato_delivery_data_2' name='textscan.17zfkkr17p9vu8125176d0m1h3sk'>
+            <connection class='textscan' directory='C:/Users/sanja/OneDrive/Desktop/DA DVOC - Practice/Jupyter_notebook' filename='Zomato_delivery_data_2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.17zfkkr17p9vu8125176d0m1h3sk' name='Zomato_delivery_data_2.csv' table='[Zomato_delivery_data_2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Customer ID' ordinal='0' />
+            <column datatype='string' name='Customer Name' ordinal='1' />
+            <column datatype='integer' name='Customer Age' ordinal='2' />
+            <column datatype='date' name='Customer Birth Date' ordinal='3' />
+            <column datatype='string' name='Gender' ordinal='4' />
+            <column datatype='string' name='Address' ordinal='5' />
+            <column datatype='string' name='City' ordinal='6' />
+            <column datatype='string' name='State' ordinal='7' />
+            <column datatype='string' name='Region' ordinal='8' />
+            <column datatype='string' name='Order ID' ordinal='9' />
+            <column datatype='string' name='Restaurant Name' ordinal='10' />
+            <column datatype='integer' name='Food Quantity' ordinal='11' />
+            <column datatype='string' name='Booking Type' ordinal='12' />
+            <column datatype='string' name='Order Food Item Name' ordinal='13' />
+            <column datatype='string' name='Cuisines' ordinal='14' />
+            <column datatype='string' name='Order Food Type' ordinal='15' />
+            <column datatype='string' name='Food Type 2' ordinal='16' />
+            <column datatype='real' name='Price' ordinal='17' />
+            <column datatype='integer' name='Sales' ordinal='18' />
+            <column datatype='real' name='Discount' ordinal='19' />
+            <column datatype='datetime' name='Order Date' ordinal='20' />
+            <column datatype='string' name='Booking Time' ordinal='21' />
+            <column datatype='string' name='Occasion' ordinal='22' />
+            <column datatype='string' name='Remark' ordinal='23' />
+            <column datatype='string' name='Customer Review' ordinal='24' />
+            <column datatype='real' name='Rating' ordinal='25' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Age]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Customer Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Birth Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Customer Birth Date]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Customer Birth Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Address</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Restaurant Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Restaurant Name]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Restaurant Name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Food Quantity]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Food Quantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Booking Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Booking Type]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Booking Type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Food Item Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Food Item Name]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Order Food Item Name</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cuisines</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cuisines]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Cuisines</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Food Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Food Type]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Order Food Type</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Food Type 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Food Type 2]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Food Type 2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Booking Time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Booking Time]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Booking Time</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occasion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Occasion]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Occasion</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Remark</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Remark]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Remark</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Review</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Review]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Customer Review</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Zomato_delivery_data_2.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Order Food Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Zomato_delivery_data_2.csv' datatype='table' name='[__tableau_internal_object_id__].[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]' role='measure' type='quantitative' />
+      <column-instance column='[Order Food Type]' derivation='None' name='[none:Order Food Type:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='State, City'>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/sanja/AppData/Local/Temp/TableauTemp/#TableauTemp_0auoksp16remcv18i41j31q7udgw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/16/2025 10:46:46 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Customer ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>993</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Age</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Birth Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Customer Birth Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Birth Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>965</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Address</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Address]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Address</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order ID</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Restaurant Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Restaurant Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Restaurant Name</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Food Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Food Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Food Quantity</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Booking Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Booking Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Booking Type</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Food Item Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order Food Item Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Food Item Name</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cuisines</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Cuisines]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cuisines</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Food Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order Food Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Food Type</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Food Type 2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Food Type 2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Food Type 2</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>982</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>992</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Discount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Discount</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>942</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>998</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Booking Time</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Booking Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Booking Time</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Occasion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Occasion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Occasion</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Remark</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Remark]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Remark</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Review</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Review]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Review</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Zomato_delivery_data_2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Order Food Type:nk]' type='palette'>
+            <map to='#e15759'>
+              <bucket>&quot;Non-Veg&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Veg&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Zomato_delivery_data_2.csv' id='Zomato_delivery_data_2.csv_A788BAF5C5A4474E95DCCBB87FD0FC7F'>
+            <properties context=''>
+              <relation connection='textscan.17zfkkr17p9vu8125176d0m1h3sk' name='Zomato_delivery_data_2.csv' table='[Zomato_delivery_data_2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Customer ID' ordinal='0' />
+                  <column datatype='string' name='Customer Name' ordinal='1' />
+                  <column datatype='integer' name='Customer Age' ordinal='2' />
+                  <column datatype='date' name='Customer Birth Date' ordinal='3' />
+                  <column datatype='string' name='Gender' ordinal='4' />
+                  <column datatype='string' name='Address' ordinal='5' />
+                  <column datatype='string' name='City' ordinal='6' />
+                  <column datatype='string' name='State' ordinal='7' />
+                  <column datatype='string' name='Region' ordinal='8' />
+                  <column datatype='string' name='Order ID' ordinal='9' />
+                  <column datatype='string' name='Restaurant Name' ordinal='10' />
+                  <column datatype='integer' name='Food Quantity' ordinal='11' />
+                  <column datatype='string' name='Booking Type' ordinal='12' />
+                  <column datatype='string' name='Order Food Item Name' ordinal='13' />
+                  <column datatype='string' name='Cuisines' ordinal='14' />
+                  <column datatype='string' name='Order Food Type' ordinal='15' />
+                  <column datatype='string' name='Food Type 2' ordinal='16' />
+                  <column datatype='real' name='Price' ordinal='17' />
+                  <column datatype='integer' name='Sales' ordinal='18' />
+                  <column datatype='real' name='Discount' ordinal='19' />
+                  <column datatype='datetime' name='Order Date' ordinal='20' />
+                  <column datatype='string' name='Booking Time' ordinal='21' />
+                  <column datatype='string' name='Occasion' ordinal='22' />
+                  <column datatype='string' name='Remark' ordinal='23' />
+                  <column datatype='string' name='Customer Review' ordinal='24' />
+                  <column datatype='real' name='Rating' ordinal='25' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions brushing-enabled='false' />
+  <worksheets>
+    <worksheet name='Monthly Trends Sales'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Zomato_delivery_data_2' name='federated.0baqwan1l3w40e19nx32b0mcuajx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0baqwan1l3w40e19nx32b0mcuajx'>
+            <column datatype='datetime' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='11' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.97751379013061523' />
+                <format attr='mark-color' value='#ec0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]</rows>
+        <cols>[federated.0baqwan1l3w40e19nx32b0mcuajx].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{0D470C8E-B4B7-4270-9435-92D69ADFF1DF}' />
+    </worksheet>
+    <worksheet name='Top 5 Restaurant Trends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Times New Roman' fontsize='16' italic='true' underline='true'>Top 5 Restaurant Trends</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Zomato_delivery_data_2' name='federated.0baqwan1l3w40e19nx32b0mcuajx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0baqwan1l3w40e19nx32b0mcuajx'>
+            <column datatype='string' name='[Restaurant Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Restaurant Name]' derivation='None' name='[none:Restaurant Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Restaurant Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' field-type='quantitative' max='11527212' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' palette='orange_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.2963535785675049' />
+                <format attr='mark-color' value='#aa0000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]</rows>
+        <cols>[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Restaurant Name:nk]</cols>
+      </table>
+      <simple-id uuid='{68E64113-648D-4D3F-819A-1EE555D53B32}' />
+    </worksheet>
+    <worksheet name='Veg &amp; Non-Veg'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Times New Roman' italic='true' underline='true'>Veg vs Non-Veg</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Zomato_delivery_data_2' name='federated.0baqwan1l3w40e19nx32b0mcuajx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0baqwan1l3w40e19nx32b0mcuajx'>
+            <column datatype='string' name='[Order Food Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Sales]' derivation='CountD' name='[ctd:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Food Type]' derivation='None' name='[none:Order Food Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Order Food Type:nk]' />
+              <wedge-size column='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' />
+              <size column='[federated.0baqwan1l3w40e19nx32b0mcuajx].[ctd:Sales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AAD5CAA6-61B3-4EFC-8E14-89D2549F3042}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Top 5 Restaurant Trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0baqwan1l3w40e19nx32b0mcuajx].[sum:Sales:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Restaurant Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4A3B3239-7ADC-4C2E-B200-C1436BEB4010}' />
+    </window>
+    <window class='worksheet' name='Monthly Trends Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0baqwan1l3w40e19nx32b0mcuajx].[yr:Order Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{05C6BBF2-F507-4F85-A9B9-2DE979B4E6CA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Veg &amp; Non-Veg'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Order Food Type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0baqwan1l3w40e19nx32b0mcuajx].[ctd:Sales:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Food Type 2:nk]</field>
+            <field>[federated.0baqwan1l3w40e19nx32b0mcuajx].[none:Order Food Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{62BE4AF9-1097-443A-AE55-084920D88310}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Monthly Trends Sales' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Top 5 Restaurant Trends' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Veg &amp; Non-Veg' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAKC0lEQVR4nO3d2XIU1wGH8a9nlRAIBNgIJBYHL2AT7NjOnpSdxEXslKvyDLnLK+UFUpWq
+      XKSS3MSJU8FxnAInQBA2BiEkJKQZ7dvs3T0nF40sCbTMjHqmZ3T+vypugJEORX89R2e6+zjG
+      GIOIpWJRD0AkSgpArKYAxGoKQKymAMRqCkCspgDEagpArKYAxGoKQKymAMRqCkCspgDEagpA
+      rKYAxGoKQKymAMRqCkCspgDEagpArKYAxGoKQKymAMRqCkCspgDEagpArKYAxGoKQKymAMRq
+      CkCspgDEagpArKYAxGoKQKymAMRqCkCspgDEagpArKYAxGoKQKymAMRqCkCspgDEagpArKYA
+      xGoKQKymAMRqCkCsloh6ACJ7Ykzwq1rF+D7EYpBI4DhOTS9XANLenhzcrOZgYRmWVyCXh1wB
+      ymUoV8D3wcDil/+jMJvFiceJ9fQQO3SI+NGjJJ5/jkR/P6kzZ0ic7MdJpXBiweRHAUj7cV2Y
+      X4SpaZiehbnF4Pd24Xg+1ZUVAPzFxa3/TjJJ8txZ0i+/TNelSzjGGBPq4EXqtXaWn8zC6ARM
+      ZaFYqvvLLN77gtVHI3W9Ru8AEh1jginN/VEYGWvooN8rBSCtZwzMzsPQXXicAb8a2VAUgLSO
+      MTC3ADfvwGQG2mDyrQCkNfIFuDEEI4+C+X6bUADSXH4Vhh/Cf28HS5ZtRgFI86zm4LP/BKs7
+      bUoBSPiMgUePg4O/VI56NDtSABIu34dbX8Dtu0EIbU4BSHhcFz65Fpz9O4QCkHAUivDxp8H6
+      fgdRALJ3hSJ8dBUWlqIeSd0UgOxNvgB/uQpLy1GPpCG6IUYaV67A3/7ZsQc/KABplOfBPz4L
+      LlvuYApA6mcMXL/V1h9w1UoBSP3uP4SvHkQ9ilAoAKnP3AJcuxn1KEKjAKR2rgufXg/m//uE
+      ApDa3fyiI9f6d6IApDaz83D3ftSjCJ0CkN35fjDvj/DWxWZRALK70QmYmYt6FE2hAGRnnhfc
+      yrhPKQDZ2fBo8CS2fUoByPZcD+7ci3oUTaUAZHvjk8F9vfuYApCtGQNf7r9lz6cpANna4nLH
+      3d3VCN0Q00GMMVTKJWKJFMlEHADf93FiMRwMpWKJVFc3cQdc16VqDIlkEt9zwYmTSiYwxlAu
+      lUim0xjfw68a4okkVa+CE09+/XUZHo3wX9o6CqCDuMVVhu58xeTMEh9+eAW/uMzvf/M73vn1
+      r1gY+pwlN8aly2/Q15NiamKM8eE79Jz7NpXFCWZmVvjgl++zNP4ltx4uYoBL508yOT5C3hyk
+      VCjieS5XPnifVNWH8c65sX0vNAXqIKkDvXTHy5SrDjEDqe7DvHn5IhjD3ZFhEtUK2blFcGKc
+      /cZLuIle3nhlkMETfRw6dowEUPU9cvkc45MTnDpznnIlzpuvnSWfz7G0MMVS3oP5BVjdv0uf
+      GymADlLKL9Nz/BxHqJCdm6dYyjOZzTI1Nc2pk4P0nzzB/Pwcc3PzLEzeo2/wAuWFCa7eGOb8
+      uUGW5ufpHXiJ77z+Gi8MDlJanITeU/T2neAH332bgZOn6T2QgImpqP+pLaMNMjqI75aZnMrS
+      dfAwmYlRLlx8hUxmhniqm/7jvWSyc/QdTDC+ZHjx1BHiqW7wSkxlZoglupifzXDx1QtkM9Mc
+      6x8gZVxIpknGDFOPJ+k+fIy+Qwfgjx915K2OjWyQoQA6lDFmy43g1v47t/uzXTePK5fht3/o
+      iKe6PU07xFhkuwN5pwO8pp0TZxc68uBvlH4GkM0sWPvfSAHIZov7646v3SgAWWdM8AmwRRSA
+      rHO9tn+ef9gUgKwrl4MILKIAZF250lYb2LWCApB1bbiJXbMpAFlXUQBis3342JPdKABZ1+Hz
+      f1P1636NApB1NVwp0a68UpFCdrLu1ykAWRePRz2Chq0+GqHqunW/TgHIumQy6hE0xCsVyT0e
+      b+i1CkDWpVNRj6BuxhhWx0YwfmMf4CkAWZdOQy2XTLcRv1QkN9nY2R8UgGyUTkGys24RWXnU
+      +NkfFIBslE4F7wIdwisWyO/h7A8KQDZyHOg7HPUoamJYO/vXv/a/kQKQzY4eiXoENfEL+T2f
+      /UEByNP6OiOAMM7+oADkaSeORz2CXYUx91+jAGSz7q62/zlgZfQBJqTrlhSAPKv/+ahHsC23
+      kCOfmQjt6ykA2cxx4PSpqEexreBT373P/dcoAHnWieNwoDvqUTzDKxbITYZ39gcFIFtJJmGg
+      P+pRbGIwLD8cBhPuPQsKQLb24gtRj2ATL5+nkA1/zwIFIFvrfw6O9EY9CiC44nNl7EGoc/81
+      CkC25jjwyotRjwJ4su4/1ZwdaxSAbO/82eBzgQgZDCsP74c+91+jAGR7XWm4EO27gJfPUcg2
+      b8caBSA7e/XlyO4UM8Y8+dQ3/Ln/GgUgO0un4PLFSL61V8iTz9T/pId6KADZ3YWXWr4iFJz9
+      w1/3f5oCkN0lE/D26y39lsHcv7lnf1AAUqvTp4JVoRb4et2/BU+qUwBSG8eB73wLeg40/Vt5
+      +VzT5/5rFIDUrrsLvvdWUx+dYoDlFsz91ygAqc/ZgaauCrmrK01d93+aApD6vfFaU64WXZv7
+      t+rsDwpAGhGPwzvfD/0Geje32pKVn40UgDSmKw3v/SjUH4qDdf/W7lKvAKRxB3vgvR+HcsFc
+      ZXWFwnTr5v5rFIA0znHgWB9ceWdPEax/6tvasz8oAAnD0SPw83fhYGPTITe3QmE6E+6YaqQA
+      ZO8cJ4jgFz8L3hHqtNKEe31rpQAkPAd74P2fwJmBml9SWV2hMBPN2R8UgIQtnYKf/hDe+ibE
+      dz68jDEsP7wXydx/jQKQ8MVicPlVuPJu8K6wDXd1meLMdOvGtQXHmAjzk/2vUoEbd+CrB5v2
+      ITbA3K3PKUY4/QEFIK1gDEzPwfWbMLcAQGV1mey/r0Y8MAUgrVQ1MDpO9cZt5j75O6XZaKc/
+      oAAkAqZcJv+vz1j505/xMpoCiY2MwXgexVu3yP31Y0p370IDO73vlQKQyBlj8DJZCteuUbz+
+      OZWxsZYtjSoAaSvG9/FmZikNDVG6PUR5eJhqLgdhPRfUcYj1HCB57hxdly4pAGlvxvPwpqep
+      jD3CffwYL5PBnZ6hmlulmi9gisVn3y0cByedJtbdTezQIRLHj5Ho7yd55gzJ06dJDg4Qe7If
+      sgKQjmOqVfA8zMZfrgt+FSeRwEmlcJIJSCRwkkkcx9n2PmYFIFbTpRBiNQUgVlMAYjUFIFZT
+      AGI1BSBWUwBiNQUgVlMAYjUFIFZTAGI1BSBWUwBiNQUgVlMAYjUFIFZTAGI1BSBWUwBiNQUg
+      VlMAYjUFIFZTAGI1BSBWUwBiNQUgVlMAYjUFIFZTAGI1BSBWUwBiNQUgVlMAYjUFIFZTAGI1
+      BSBWUwBiNQUgVlMAYjUFIFZTAGI1BSBWUwBiNQUgVlMAYrX/A8MItpDb/dLoAAAAAElFTkSu
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
